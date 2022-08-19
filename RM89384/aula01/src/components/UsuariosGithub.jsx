@@ -1,11 +1,17 @@
-import React from 'react';
+import React, {useState} from 'react';
 
-function usuariosGithub() {
+export default function UsuariosGithub() {
+
+    const [relogio, setRelogio] = useState(new Date().toLocaleTimeString())
+
+    setTimeout(() => {
+        setRelogio(new Date().toLocaleDateString() +" - "+ new Date().toLocaleTimeString()) //<- O que vai ser executado
+    }, 1000); //<- Tempo em ms = milissegundos
+
     return (
       <div>
-          <h1>Usuários</h1>
+          <h2>Usuários do Github</h2>
+          <h3>Horário: {relogio}</h3>
       </div>
     )
   }
-  
-  export default usuariosGithub;
