@@ -1,6 +1,6 @@
 import React from "react";
 
-export default ()=>
+export default function App(){
 return(
-    <h1></h1>
-)
+    <h1>Bom dia</h1>
+)}
