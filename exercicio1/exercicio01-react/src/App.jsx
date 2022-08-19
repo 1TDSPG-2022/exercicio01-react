@@ -1,2 +1,3 @@
-import UsuariosGitnub from './components/UsuariosGithub'
+import React from 'react'
+import UsuariosGithub from './components/UsuariosGithub'
 
