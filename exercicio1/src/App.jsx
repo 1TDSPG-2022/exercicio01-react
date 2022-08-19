@@ -1,6 +1,10 @@
 import React from "react";
+import UsuariosGitHub from "./componente/UsuarioGitGub";
 
 export default function App(){
 return(
-    <h1>Bom dia</h1>
+    <div>
+        <UsuariosGitHub/>
+        <h1>Bom dia</h1>
+    </div>
 )}
