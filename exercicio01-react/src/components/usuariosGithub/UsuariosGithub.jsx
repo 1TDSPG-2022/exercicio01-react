@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 
 export default function UsuariosGithub() {
 
-    const [relogio, setRelogio] = useState(new Date().toLocaleTimeString)
+    const [relogio, setRelogio] = useState(new Date().toLocaleTimeString())
 
     setTimeout(() => {
         setRelogio(new Date().toLocaleTimeString())
