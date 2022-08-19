@@ -1,2 +1,2 @@
-import UsuariosGitnub from "./components/UsusariosGithub"
+import UsuariosGitnub from './components/UsuariosGithub'
 
