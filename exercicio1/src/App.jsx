@@ -3,7 +3,7 @@ import UsuariosGitHub from "./componente/UsuariosGitHub/UsuarioGitGub";
 
 export default function App(){
 
-    const [relogio, setRelogio] = useState(new Date().toLocaleDateString())
+    const [relogio, setRelogio] = useState(new Date().toLocaleTimeString())
 
     setTimeout(() => {
         setRelogio(new Date().toLocaleTimeString())
