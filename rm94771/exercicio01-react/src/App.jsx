@@ -1,13 +1,11 @@
 import React from 'react'
 import UsuariosGithub from './components/UsuariosGitHub'
 
-function App() {
+export default function App() {
   return (
     <div>
-      <h1>Teste</h1>
+      <h1>Exercício de useState e useEffect</h1>
       <UsuariosGithub />
     </div>
   )
 }
-
-export default App
