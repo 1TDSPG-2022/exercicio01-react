@@ -6,7 +6,6 @@ export default function App (){
         <div>
             <h1>EXERCÍCIOS DE ATATE E UESE-EFFECTS</h1>
             <UsuariosGithub/>
-            <relogio/>
         </div>
     )
 }
